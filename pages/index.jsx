@@ -10,9 +10,9 @@ export default function Home() {
           <Image
             src="/hero-placeholder.jpg"
             alt="Military family home"
-            layout="fill"
-            objectFit="cover"
-            className="opacity-30"
+            width={1600}
+            height={800}
+            className="w-full h-auto opacity-30"
           />
         </div>
         <div className="relative z-10 max-w-3xl mx-auto">
